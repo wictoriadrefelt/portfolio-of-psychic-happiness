@@ -1,0 +1,21 @@
+/* .clock {
+  color: black;
+  font-size: 12px;
+  margin-top: 3px;
+  padding: 2px;
+  margin: 5px;
+} */
+
+.clock {
+  background-color: #c0c0c0;
+  border: 1px solid #808080;
+  box-shadow: inset 1px 1px 3px #808080;
+  padding: 6px;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+.clock:hover {
+  box-shadow: inset 1px 1px 3px #c0c0c0;
+}
