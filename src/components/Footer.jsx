@@ -24,22 +24,37 @@ const Footer = () => {
         {menuOpen && (
           <div className="dropup-container">
             <div className="dropup-content">
-              <div className="sidebar">
-                <span>Windows 95</span>
-              </div>
+              <div className="sidebar"></div>
               <a className="menu-links" href="#">
                 <span className="menu-icon">
                   {" "}
-                  <img className="ring" src="src\assets\ring.png" alt="icon" />
+                  <img
+                    className="ring"
+                    src="src\assets\All\PHONE.ico"
+                    alt="icon"
+                  />
                 </span>
                 <u>A</u>bout me
               </a>
               <a className="menu-links" href="#">
-                <span className="menu-icon">Icon 2</span>
+                <span className="menu-icon">
+                  <img
+                    className="ring"
+                    src="src\assets\All\PHONE.ico"
+                    alt="icon"
+                  />
+                </span>
                 <u>G</u>et in touch
               </a>
               <a className="menu-links" href="#">
-                <span className="menu-icon">Icon 3</span>
+                <span className="menu-icon">
+                  {" "}
+                  <img
+                    className="ring"
+                    src="src\assets\All\PHONE.ico"
+                    alt="icon"
+                  />
+                </span>
                 <u>S</u>hut down
               </a>
             </div>
